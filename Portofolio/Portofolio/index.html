@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="..." width="100" height="90
+        "/>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Rizky Ramdhani logo" width="100" height="90
+        "/>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/ramdhani.jpg" alt="Ramdhani profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rizky Ramdhani</h1>
+        <p class="section__text__p2">Data Analyst & Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1a7ltTicJ3FXxlDYNPuGPy95edcpzrslK/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/rizkyr18/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/rizkyr18'"
+          />
+          <img
+          src="./assets/whatsapp.png"
+          alt="My Number"
+          class="icon"
+          onclick="location.href='https://wa.me/08999531742'"
+        />
+        <img
+        src="./assets/gmail.png"
+        alt="My Email"
+        class="icon"
+        onclick="window.location.href='mailto:rizkyr716@gmail.com'"
+      />
+      <img
+          src="./assets/linktree.png"
+          alt="My linktree"
+          class="icon"
+          onclick="location.href='/linktree'"
+        />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/graduate.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years as <br />Data Analyst & Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>S.T. Informatics Engineer<br />Universitas Muhammadiyah Prof Dr Hamka</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a dynamic and result-oriented person, I have sufficient experience as a Data Analyst in managing raw data up to the data visualization stage to facilitate data understanding, pattern identification, and effective information.On the other hand, I am able to operate several static and dynamic programming languages and frameworks to fulfill the needs as a front end web developer to create amazing and user friendly web experiences.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Analyst</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spreadsheet</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RapidMiner</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NodeJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Laravel</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Big</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Project 1 start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Kampusgratis.id</h2>
+            <p>KampusGratis adalah Platform Pendidikan Tinggi Gratis Pertama di Indonesia. Mengadopsi konsep Merdeka Belajar, termasuk Magang, Studi Independen Bersertifikat (MSIB), dan Rekognisi Pembelajaran Lampau (RPL), yang memungkinkan konversi pembelajaran menjadi SKS untuk percepatan perolehan ijazah S1 dan S2</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1kX8goQ_KCrUEsV8D2o0ZkvOxdEwkw_oS/view?usp=sharing'"
+              >
+                More Info
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kampusgratis.id/'"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+          <!-- Project 1 end -->
+          <!-- Project 2 start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dashboard Admin KampusGratis</h2>
+            <p>Project yang memfasilitasi para user agar memudahkan dalam menginput, memantau, dan mengelola progress maupun jadwal secara real-time</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1kX8goQ_KCrUEsV8D2o0ZkvOxdEwkw_oS/view?usp=sharing'"
+              >
+                More Info
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kg-admin.vercel.app/auth/login'"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+          <!-- Project 2 end -->
+          <!-- Project 3 start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">National Publication - SINTA 4</h2>
+            <p>Judul : "Analisis Visualisasi Data Game Online RMT (Real Money Trading) di Indonesia Dengan Metode Business Intelligence Menggunakan Dashboard Tableau"</p>
+            <br>  
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://docs.google.com/presentation/d/1iY1y500U36egBWNu8oscDg7PDk8HNF0f/edit?usp=sharing&ouid=116794219752421529128&rtpof=true&sd=true'"
+              >
+                More Info
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://tunasbangsa.ac.id/pkm/index.php/kesatria/article/view/331'"
+              >
+                Publication
+              </button>
+            </div>
+          </div>
+          <!-- Project 3 end -->
+          <!-- Project 4 start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project4.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">National Seminar Presenters</h2>
+            <p>Judul : "Analisa Visualisasi Data Kematian Yang Disebabkan Oleh Penyakit Hiv Dan Malaria Diseluruh Dunia Dengan Metode Business Intelligence Menggunakan Dashboard Tableau"</p>
+            <br>  
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://docs.google.com/presentation/d/1DANiQ4iiPlflh5uXUDiO33AxemJIcoxl/edit?usp=sharing&ouid=116794219752421529128&rtpof=true&sd=true'"
+              >
+                More Info
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://journal.uhamka.ac.id/teknoka/article/view/11139'"
+              >
+                Publication
+              </button>
+            </div>
+          </div>
+          <!-- Project 4 end -->
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <!-- Email -->
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:rizkyr716@gmail.com">Gmail</a></p>
+        </div>
+        <!-- LinkedIn -->
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/rizkyr18/">LinkedIn</a></p>
+        </div>
+        <!-- Whatsapp -->
+        <div class="contact-info-container">
+          <img
+            src="./assets/whatsapp.png"
+            alt="whatsapp icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/08999531742">Whatsapp</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linktree.png"
+            alt="whatsapp icon"
+            class="icon contact-icon"
+          />
+          <p><a href="/linktree/">Linktree</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="whatsapp icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/rizkyr18">For Collab</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Rizky Ramdhani. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
